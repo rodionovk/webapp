@@ -7,10 +7,10 @@
             // Вызов метода через интерфейс "Android"
             Android.onClick("Hello from webview");
         }
+        document.addEventListener("click", callAndroidMethod);
     </script>
 </head>
 <body>
 <h1>Нажми чтобы вызвать нативный метод</h1>
-<button onclick="callAndroidMethod()">Click me</button>
 </body>
 </html>
