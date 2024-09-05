@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS and Android native bridge</title>
+    <script type="text/javascript">
+        function callAndroidMethod() {
+            // Вызов метода через интерфейс "Android"
+            Android.onClick("Hello from webview");
+        }
+    </script>
+</head>
+<body>
+<h1>Нажми чтобы вызвать нативный метод</h1>
+<button onclick="callAndroidMethod()">Click me</button>
+</body>
+</html>
